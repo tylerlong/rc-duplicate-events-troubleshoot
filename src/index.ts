@@ -44,7 +44,7 @@ const main = async () => {
     }
   }, 5000); // every 5 seconds
 
-  await waitFor({interval: 20000}); // exit after 20 minute
+  await waitFor({interval: 20000}); // exit after 20 seconds
   await rc.revoke();
 };
 
